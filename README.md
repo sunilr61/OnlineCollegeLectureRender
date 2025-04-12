@@ -18,11 +18,3 @@ You are building web application for Online Classes. As a part of this system, y
   * Eg #3. If a learner was a part of batch 1 from 1st Jan 2021 to 31st Jan 2021, and then batch 2 from 1st Feb 2021 onwards i.e. learner is still a part of batch 2, then the learner should be able to see all the lectures that happened for batch 1 between 1st Jan and 31st Jan, and all the lectures that happened for batch 2 from 1st Feb onwards. No other lectures should be shown to the learner.
 * The output should be sorted by the lecture start time in ascending order.
 
-
-## Instructions
-1. Carefully look at the dto package. These classes represent the request and response of the functionality which we want to implement.
-2. Carefully examine the models package to understand the database schema.
-3. Implement the `fetchTimeline` method inside the `LearnerController`.
-4. Implement the `LectureService` interface and fix the repository interfaces.
-5. You might need to add annotations like `@Service`, `@Autowired`, `@Entity` etc. to make the solution work. You might also need to handle cardinality between the models.
-6. We will be using H2 database which is an in-memory SQL database. You do not need to implement any database related code. You just need to use the repository interfaces to interact with the database.
