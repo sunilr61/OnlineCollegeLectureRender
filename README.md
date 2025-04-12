@@ -1,4 +1,4 @@
-# Implement functionality which will render the 'All classes' page for learners for Scaler Academy
+# Implement functionality which will render the 'All classes' page for learners for Online Classes
 
 ## Problem Statement
 
