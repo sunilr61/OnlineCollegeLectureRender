@@ -1,6 +1,6 @@
-package com.example.scaler.dtos;
+package com.example.dtos;
 
-import com.example.scaler.models.ScheduledLecture;
+import com.example.models.ScheduledLecture;
 import lombok.Data;
 
 import java.util.List;

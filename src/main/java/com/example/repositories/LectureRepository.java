@@ -1,6 +1,6 @@
-package com.example.scaler.repositories;
+package com.example.repositories;
 
-import com.example.scaler.models.Lecture;
+import com.example.models.Lecture;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

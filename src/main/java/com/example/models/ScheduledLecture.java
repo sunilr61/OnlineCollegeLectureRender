@@ -1,9 +1,7 @@
-package com.example.scaler.models;
+package com.example.models;
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.ManyToMany;
 import jakarta.persistence.ManyToOne;
-import jakarta.persistence.OneToMany;
 import lombok.Data;
 
 import java.util.Date;

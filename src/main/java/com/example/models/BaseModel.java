@@ -1,4 +1,4 @@
-package com.example.scaler.models;
+package com.example.models;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

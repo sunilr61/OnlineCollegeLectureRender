@@ -1,10 +1,10 @@
-package com.example.scaler.controllers;
+package com.example.controllers;
 
-import com.example.scaler.dtos.FetchTimelineRequestDto;
-import com.example.scaler.dtos.FetchTimelineResponseDto;
-import com.example.scaler.dtos.ResponseStatus;
-import com.example.scaler.models.ScheduledLecture;
-import com.example.scaler.services.LearnerService;
+import com.example.dtos.FetchTimelineRequestDto;
+import com.example.dtos.FetchTimelineResponseDto;
+import com.example.dtos.ResponseStatus;
+import com.example.models.ScheduledLecture;
+import com.example.services.LearnerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 

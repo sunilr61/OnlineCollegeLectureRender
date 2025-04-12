@@ -1,4 +1,4 @@
-package com.example.scaler.dtos;
+package com.example.dtos;
 
 import lombok.Data;
 

@@ -1,7 +1,6 @@
-package com.example.scaler.repositories;
+package com.example.repositories;
 
-import com.example.scaler.models.Batch;
-import com.example.scaler.models.ScheduledLecture;
+import com.example.models.ScheduledLecture;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

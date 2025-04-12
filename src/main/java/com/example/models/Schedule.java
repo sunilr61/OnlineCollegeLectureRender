@@ -1,4 +1,4 @@
-package com.example.scaler.models;
+package com.example.models;
 
 public enum Schedule {
     MWF_MORNING,

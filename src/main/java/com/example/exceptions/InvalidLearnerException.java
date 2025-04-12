@@ -1,4 +1,4 @@
-package com.example.scaler.exceptions;
+package com.example.exceptions;
 
 public class InvalidLearnerException extends Exception{
 

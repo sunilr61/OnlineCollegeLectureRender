@@ -1,7 +1,7 @@
-package com.example.scaler.services;
+package com.example.services;
 
-import com.example.scaler.exceptions.InvalidLearnerException;
-import com.example.scaler.models.ScheduledLecture;
+import com.example.exceptions.InvalidLearnerException;
+import com.example.models.ScheduledLecture;
 
 import java.util.List;
 

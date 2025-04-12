@@ -1,25 +1,22 @@
-package com.example.scaler.services;
+package com.example.services;
 
-import com.example.scaler.exceptions.InvalidLearnerException;
-import com.example.scaler.models.Batch;
-import com.example.scaler.models.BatchLearner;
-import com.example.scaler.models.Learner;
-import com.example.scaler.models.ScheduledLecture;
-import com.example.scaler.repositories.BatchLearnerRepository;
-import com.example.scaler.repositories.LearnerRepository;
-import com.example.scaler.repositories.ScheduledLectureRepository;
+import com.example.exceptions.InvalidLearnerException;
+import com.example.models.BatchLearner;
+import com.example.models.Learner;
+import com.example.models.ScheduledLecture;
+import com.example.repositories.BatchLearnerRepository;
+import com.example.repositories.LearnerRepository;
+import com.example.repositories.ScheduledLectureRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collectors;
 
 @Service
 public class LearnerServiceImpl implements LearnerService{
 
-    private LearnerRepository  learnerRepository;
+    private LearnerRepository learnerRepository;
 
     private BatchLearnerRepository batchLearnerRepository;
 
